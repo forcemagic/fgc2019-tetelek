@@ -13,7 +13,7 @@ public class Main {
         //lista hosszának megadása
         int N =  Integer.parseInt(scanner.nextLine());
         for (int i=0;i<N;i++) {
-            nmbrs.add(rand.nextInt(100));
+            nmbrs.add(rand.nextInt(1000));
         }
         //lista növekvő sorrendbe állitása
         Collections.sort(nmbrs);
