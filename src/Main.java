@@ -8,10 +8,10 @@ public class Main {
         //2.1
         ArrayList<Integer> nmbrs= new ArrayList<>();
         Random rand = new Random();
-        Scanner szkennér = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("véletlenszerű számok listájának hossza: ");
         //lista hosszának megadása
-        int N =  Integer.parseInt(szkennér.nextLine());
+        int N =  Integer.parseInt(scanner.nextLine());
         for (int i=0;i<N;i++) {
             nmbrs.add(rand.nextInt(100));
         }
